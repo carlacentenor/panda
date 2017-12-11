@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+/*Variables fijas -- Colores*/
+:root {
+    --orange: #fe8b61;
+    --green: #b1e282;
+}
+/*estilos de imágenes*/
+.image-principal{
+    height: 35rem;
+    
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.panda1{
+    background-image: url('../assets/img/uno.jpg');
+}
+
+.panda2{
+    background-image: url('../assets/img/dos.jpg');
+}
+
+.panda3{
+    background-image: url('../assets/img/tres.jpg');
+}
+/*Title*/
+
+header {
+    background-color: var(--orange);
+}
+
+.title{
+    
+    text-align: right;
+    padding: 5rem;
+}
+
+.title :first-child {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.title :last-child{
+    font-size: 1.5rem;
+}
+
+/*Text Section*/
+
+.text1{
+    background-color: var(--green);
+}
+
+.info-panda1{
+    margin: 1rem auto;
+    width: 30rem;
+    background-color: var(--orange);
+    padding: 1rem;
+}
